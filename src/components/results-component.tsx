@@ -12,7 +12,7 @@ export const Results = ({ answers }: Props) => {
   });
 
   return (
-    <div>
+    <div className="max-h-3xl">
       <h2 className="text-2xl mb-4 text-indigo-950">Resultados!!!</h2>
       {answers.map((item, key) => (
         <div

@@ -17,7 +17,7 @@ export const OptionComponent = ({ option }: Props) => {
     <div
       className={`border border-indigo-300 
       my-2 p-2 rounded-lg ${
-        option.optionSelected
+        option.optionSelected !== null
           ? "cursor-auto"
           : "cursor-pointer hover:bg-indigo-300"
       }

@@ -33,7 +33,7 @@ export const questions = [
     title:
       "Qual desses jogos foi proibido no Brasil sob a acusação de incitar violência no trânsito?",
     options: ["Grand Theft Auto", "Drive", "Burnout", "Carmageddon"],
-    correct: 4,
+    correct: 3,
   },
   {
     id: 5,
@@ -46,7 +46,7 @@ export const questions = [
     title:
       "Em qual jogo icônico os jogadores combatem hordas de mortos-vivos em Raccoon City?",
     options: ["Left 4 Dead", "Silent Hill", "Resident Evil", "Zombieville"],
-    correct: 3,
+    correct: 2,
   },
   {
     id: 7,
@@ -81,6 +81,6 @@ export const questions = [
     id: 10,
     title: "Qual empresa criou o primeiro console de videojogo?",
     options: ["Nintendo", "Namco", "Sony", "Atari"],
-    correct: 4,
+    correct: 3,
   },
 ];

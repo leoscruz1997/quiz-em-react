@@ -18,8 +18,8 @@ export const App = () => {
   };
 
   return (
-    <div className="w-screen h-screen bg-gradient-to-r py-5 from-indigo-500 to-indigo-600 flex items-center">
-      <div className="container max-w-3xl overflow-auto h-full mx-auto bg-white/75 p-4 rounded-md shadow-lg">
+    <div className="w-screen h-screen bg-gradient-to-r py-6 from-indigo-500 to-indigo-600 flex items-center">
+      <div className="container max-w-3xl overflow-auto h-fit max-h-full mx-auto bg-white/75 p-4 rounded-md shadow-lg">
         {!showEnding && (
           <>
             <h1 className="font-bold text-2xl text-indigo-950 ">
